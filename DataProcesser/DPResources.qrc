@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>UI/QMLMainArea.qml</file>
+        <file>UI/MainPage.qml</file>
+        <file>UI/WaveViewer.qml</file>
+        <file>UI/qmldir</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>UI/image/background.PNG</file>
+    </qresource>
+</RCC>
