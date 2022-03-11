@@ -46,7 +46,7 @@ void MainWindow::initUI()
     int g_nActScreeny = deskRect.height();
     this->setGeometry(desktopWidget->screenGeometry(0));
     this->setGeometry(g_nActScreenX/2-550,g_nActScreeny/2-400,1100,600);
-    QSize stSize(1100, 600);
+    QSize stSize(1100, 601);
     this->setMinimumSize(stSize);
 
     m_parentlayout = new QVBoxLayout();
@@ -62,4 +62,5 @@ void MainWindow::initUI()
 
     setWindowTitle(qApp->applicationName() + " " + qApp->applicationVersion());
     show();
+
 }
