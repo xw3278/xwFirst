@@ -171,6 +171,7 @@ void ScreenShot::shot(double n) {
 
 void ScreenShot::shotSlot() {
     QThread::msleep(100);
-    shot(0.7);
+
+    shot(0.7); // Opcity
 }
 
